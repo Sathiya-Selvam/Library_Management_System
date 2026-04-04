@@ -1,0 +1,36 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: rgba(191, 19, 73, 0.66);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    background: #c415d4;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #4614de;
+    transform: scale(1.1);
+}

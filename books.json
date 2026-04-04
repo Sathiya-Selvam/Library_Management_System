@@ -1,0 +1,17 @@
+[
+    {
+        "title": "JavaScript Basics",
+        "author": "John Doe",
+        "issued": true
+    },
+    {
+        "title": "Python for Beginners",
+        "author": "Jane Smith",
+        "issued": true
+    },
+    {
+        "title": "Data Structures and Algorithms",
+        "author": "Mark Wilson",
+        "issued": false
+    }
+]

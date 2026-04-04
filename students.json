@@ -1,0 +1,12 @@
+[
+    {
+        "id": "S001",
+        "name": "Alice Johnson",
+        "booksIssued": ["JavaScript Basics", "Python for Beginners"]
+    },
+    {
+        "id": "S002",
+        "name": "Bob Smith",
+        "booksIssued": []
+    }
+]

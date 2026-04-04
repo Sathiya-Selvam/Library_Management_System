@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Library Management System</h1>
+    </header>
+
+    <div class="container">
+        <button onclick="openPage('add_student.html')">Add Student</button>
+        <button onclick="openPage('add_book.html')">Add Book</button>
+        <button onclick="openPage('issue_book.html')">Issue Book</button>
+        <button onclick="openPage('return_book.html')">Return Book</button>
+        <button onclick="openPage('students.html')">Student List</button>
+        <button onclick="openPage('books.html')">Available Books</button>
+    </div>
+
+    <script>
+        function openPage(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>
