@@ -20,7 +20,8 @@ pipeline {
         stage('Deploy to Azure') {
             steps {
                 withCredentials([string(credentialsId: 'azure-storage-key', variable: 'AZURE_STORAGE_KEY')]) {
-                    bat '"C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin\\az.cmd" storage blob upload-batch --account-name %AZURE_STORAGE_ACCOUNT% --account-key %AZURE_STORAGE_KEY% -s dist -d $web --overwrite'
+                    bat 'where az'
+                    bat 'az storage blob upload-batch --account-name %AZURE_STORAGE_ACCOUNT% --account-key %AZURE_STORAGE_KEY% -s dist -d $web --overwrite'
                 }
             }
         }
